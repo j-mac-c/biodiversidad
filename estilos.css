@@ -1,0 +1,108 @@
+body{
+    width: 600px;
+    height: auto;
+    margin-left: 400px;
+    background-color:floralwhite;
+}
+.em{
+    background-color: darkgrey;
+}
+.tu{
+    background-color:darkseagreen;
+}
+.jo{
+    background-color:cadetblue;
+    text-align-last: center;
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.galeria{
+    filter: brightness(50%)
+}
+h2{
+    text-align-last: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+    font-family:sans-serif;
+}
+.galeria:hover{
+    filter: brightness(100%)
+}
+aside{
+    background-color: black;
+    margin: 10px;
+    float: left;
+    width: 125px;
+    height: 240px;
+}
+.jmcc{
+    text-decoration-line: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.jmcc:hover{
+    background-color: blue;
+    padding: 10px;
+}
+nav{
+    background-color: green;
+    width: 100%;
+    text-align-last: center;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    font-family: cursive;
+}
+a:hover{
+    background-color: red;
+    padding: 10px;
+}
+.texto{
+    background-color: burlywood;
+}
+.color{
+    background-color: dimgray;
+    text-align-last: center;
+    font-family: sans-serif;
+    height: 250px;
+    padding: 5px;
+    line-height: 50px;
+}
+p{
+    font-family: sans-serif;
+}
+h1{
+    font-family: cursive;
+}
+fieldset {
+    border-width: medium;
+    border-color:brown;
+    border-style:double;
+    background-color: cornflowerblue;
+    font-family: cursive;
+}
+.boton{
+    background-color: orange;
+ border-color: white;
+ border-width: 3px;
+ color: white;
+}
+
+.ma {
+    color: black;
+    text-decoration-line:underline;
+}
+
+.ho {
+    background-color: white;
+}

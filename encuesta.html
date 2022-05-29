@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+   <div class="contenedor">
+    <aside>
+        <a class="jmcc" href="index.html.html">Inicio</a>
+        <a class="jmcc" href="biodiversidad.html">Biodiversidad</a>
+        <a class="jmcc" href="plantas.html">Plantas</a>
+        <a class="jmcc" href="animales.html">Animales</a>
+        <a class="jmcc" href="hongos.html">Hongos</a>
+        <a class="jmcc" href="encuesta.html">Encuesta</a>
+    </aside>
+    <form method="post" enctype="multipart/form-data">
+        <fieldset name="persona">
+            <legend>Encuesta</legend>
+            <label>¿Que te pareció la información?</label><br>
+            <input type="text" name="texto" placeholder="Escribe tu opinión" required maxlength="80"><br>
+            <label>Te fue útil la información:</label><br>
+            <input type="radio" name="te fue útil la información" value="si">Si
+            <input type="radio" name="te fue útil la información" value="No">No <br>
+            <label>Comentarios:</label><br>
+            <textarea name="comenta" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="submit" name="envio" value="ENVIAR" class="boton">
+    </form>
+    </div>
+</body>
+</html>
